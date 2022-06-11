@@ -27,4 +27,5 @@ services:
             - POSTGRES_DATABASE=${POSTGRES_DATABASE}
             - POSTGRES_USER=${POSTGRES_USER}
             - POSTGRES_PORT=${POSTGRES_PORT}
-            - POSTGRES_HOST=db
+            - POSTGRES_HOST=${POSTGRES_HOST}
+            # - POSTGRES_HOST=db
